@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-soft-gray text-charcoal font-sans;
+}
+
+.container-xl {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+@keyframes bounce-once {
+  0% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bounce-once {
+  animation: bounce-once 0.6s ease-out;
+}
