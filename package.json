@@ -17,7 +17,9 @@
     "react-hook-form": "^7.53.0",
     "react-router-dom": "^6.29.0",
     "zod": "^3.23.8",
-    "@hookform/resolvers": "^3.9.0"
+    "@hookform/resolvers": "^3.9.0",
+    "@remix-run/dev": "^2.14.0"
+
   },
   "devDependencies": {
     "@types/react": "^18.3.0",
@@ -33,4 +35,5 @@
     "vite": "^6.0.0"
   }
 }
+
 
